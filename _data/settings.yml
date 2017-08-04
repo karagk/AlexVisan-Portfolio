@@ -1,0 +1,106 @@
+#-------------------------------
+# General Site Settings
+
+title: Alex Vişan
+description: Self // Taught // Developer
+email: alexandruvisan1908@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Alex is a creative mind** who loves to learn and thrive in environments that constantly embrace new technologies.
+  [He is exploring new opportunities](https://www.linkedin.com/in/alexandru-visan-83758613b/){:target="_blank"}
+  in learning from others as much as he can in ever growing companies.
+
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '8'}
+- {name: Learning, value: '10'}
+- {name: Debugging, value: '8'}
+- {name: Planning, value: '8'}
+- {name: Visual Design, value: '3'}
+- {name: UX Design, value: '5'}
+- {name: Programming, value: '7'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Plain JavaScript DOM Manipulation, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-tyrionlany.jpg',
+  name: 'Tyrion Lannister',
+  title: 'Director of Wine and Tits, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Alex was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-daeneryst.jpg',
+  name: 'Daenerys Targaryen',
+  title: 'Queen of the Andals and the First Men, Breaker of Chains, Mother of Dragons, Queen of Meereen, Antartica Int.',
+  quote: '<p><strong>Working with Alex was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my boyfriend without him noticing.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-kattyperry.jpg',
+  name: 'Katy Perry',
+  title: 'Scientist Girl, Quebec Int.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: Is Math related to Science?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Cleatus Cassidy',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/AlexKara5'}
+- {icon: 'facebook', link: 'https://www.facebook.com/alexey.kara'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/visan-alexandru-83758613b/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
